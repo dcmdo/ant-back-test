@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no,minimum-scale=1, maximum-scale=1">
+    <title>国网商旅</title>
+    <link rel="icon" href="./images/logo.png">
+    <style>
+        body{
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: 0;
+            background-color: #f4ad3d;
+        }
+        #react-container{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #cool-play-back{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(./images/cool-play-back.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #cool-play-loading{
+            position: relative;
+            width: 15rem;
+            height: 15rem;
+            background-image: url(./images/default-loading.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        #cool-play-loading span{
+            position: relative;
+            margin-bottom: -2.5rem;
+            color: #ed3d57;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 0.25rem 1rem;
+            font-size: 1.2rem;
+            border-radius: 0.5rem;
+            white-space: nowrap;
+        }
+        .adapter-small #cool-play-loading{
+            width: 10rem;
+            height: 10rem;
+        }
+        .adapter-small #cool-play-loading span{
+            margin-bottom: -2.3rem;
+            font-size: 1rem;
+        }
+    </style>
+    <script src="./global-handles.js"></script>
+</head>
+<body class="font-hei">
+<div id="react-container">
+    <div id="cool-play-back">
+        <div id="cool-play-loading">
+            <span>加载脚本，请稍后…</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

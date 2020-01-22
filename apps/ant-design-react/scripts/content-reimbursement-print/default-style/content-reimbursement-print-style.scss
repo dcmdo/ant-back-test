@@ -1,0 +1,50 @@
+.content-reimbursement-print{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 32px;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 20px;
+  .searchBar{
+    width: 100%;
+    margin-bottom: 23px;
+    box-shadow: rgb(229, 243, 245) 0px 10px 12px 0px;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    .condition-container{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      .condition-group{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 56px;
+        width: 400px;
+        .label{
+          width: 138px;
+          text-align: right;
+          padding-right: 8px;
+          box-sizing: border-box;
+        }
+        .condition-content{
+          width: 240px;
+        }
+      }
+     /* .condition-row{
+        width: 100%;
+        height: 56px;
+        .condition-col{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+      }*/
+    }
+    .button-container{
+
+    }
+  }
+}
