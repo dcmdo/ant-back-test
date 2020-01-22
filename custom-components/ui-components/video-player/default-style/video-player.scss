@@ -1,0 +1,114 @@
+@import "../../default-style/global-style-value";
+.default-video-player{
+  position: relative;
+  width: 48rem;
+  height: 27rem;
+  background-color: black;
+  box-shadow:0 0.1rem 0.5rem rgba(0,0,0,0.5);
+  .video-control{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: $heavy_dark;
+    display: flex;
+    align-items: center;
+    color: $default_light;
+    cursor: default;
+    .video-play{
+      display: inline-flex;
+      margin-left: 1rem;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    .video-play:hover{
+      color: $blue_normal;
+    }
+    .video-progress{
+      margin-left: 2rem;
+      width: 100%;
+      height: 0.5rem;
+      border-radius: 0.25rem;
+      background-color: $default_light;
+      cursor: pointer;
+      .slider-front{
+        position: relative;
+        height: 100%;
+        background-color: $blue_normal;
+        border-radius: 0.5rem;
+        .slider-tag{
+          position: absolute;
+          right: -0.6rem;
+          top: -0.35rem;
+          height: 1.2rem;
+          width: 1.2rem;
+          border-radius: 50%;
+          background-color: $blue_normal;
+        }
+      }
+    }
+    .video-time{
+      margin-left: 0.5rem;
+      font-size: 1rem;
+    }
+    .video-voice{
+      display: inline-flex;
+      margin-left: 2rem;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    .video-voice:hover{
+      color: $blue_light;
+    }
+    .video-volume{
+      margin-left: 0.5rem;
+      margin-right: 2rem;
+      min-width: 6rem;
+      height: 0.5rem;
+      background-color: $default_light;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      .slider-front{
+        background-color: $blue_normal;
+        height: 100%;
+        border-radius: 0.25rem;
+      }
+    }
+    .video-fullscreen{
+      margin-right: 1rem;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    .video-fullscreen:hover{
+      color: $blue_light;
+    }
+    .video-fullscreen:active{
+      color: $blue_dark;
+    }
+  }
+  .close-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5rem;
+    background-color: $heavy_dark;
+    color: $default_light;
+    transition: color 0.3s,background-color 0.3s;
+    border-bottom-left-radius: 50%;
+    cursor: pointer;
+  }
+  .close-button:hover{
+    color: $blue_light;
+  }
+  .close-button:active{
+    color:$blue_dark;
+  }
+  .children-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}

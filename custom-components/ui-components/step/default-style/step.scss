@@ -1,0 +1,38 @@
+@import "../../default-style/global-style-value";
+//默认steps样式
+.default-step{
+  width: 20rem;
+  height: 3rem;
+  cursor: pointer;
+  .step-background{
+    background-color: $default_light;
+  }
+  .step-foreground{
+    background-color: $blue_normal;
+  }
+  .step-container{
+    .step-node{
+      background-color: $default_light;
+      color: $default_dark;
+      transition: background-color 0.3s,color 0.3s;
+    }
+    .step-node-current{
+      background-color: $blue_normal;
+      color:$default_soft;
+    }
+  }
+  .step-text-container{
+    .svg-container{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      .step-text{
+        fill: $default_dark;
+      }
+      .step-text-current{
+        fill: $blue_normal;
+      }
+    }
+  }
+}

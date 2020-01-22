@@ -1,0 +1,94 @@
+@import "../../default-style/global-style-value";
+//默认tree样式
+.default-tree{
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  background-color: $default_white;
+  padding: 0.25rem 0.5rem;
+  overflow-y: auto;
+  .tree-node{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    .node-render{
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      .expansion{
+        position: relative;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        cursor: pointer;
+        color: $default_gray;
+        transition: color 0.3s;
+      }
+      .expansion:hover{
+        color: $blue_light
+      }
+      .expansion:active{
+        color: $blue_dark;
+      }
+      .check{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 0.9rem;
+        height: 0.9rem;
+        margin-left: 0.25rem;
+        font-size: 0.7rem;
+        background-color: $default_white;
+        border: 2px solid $default_gray;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        transition: color 0.3s,border 0.3s;
+      }
+      .check:hover{
+        border-color: $blue_light;
+      }
+      .check:active{
+        border-color: $blue_dark;
+      }
+      .check-1{
+        color: transparent;
+      }
+      .check-2{
+        color: $blue_normal;
+        border-color: $blue_normal;
+      }
+      .check-3{
+        color: $blue_normal;
+        border-color: $blue_normal;
+      }
+      .node-content{
+        position: relative;
+        display: inline-flex;
+        color: $default_gray;
+        margin-left: 0.25rem;
+        cursor: pointer;
+        transition: color 0.3s;
+        word-break: keep-all;
+        >*{
+          pointer-events: auto;
+        }
+      }
+      .node-content:hover{
+        color: $blue_light
+      }
+      .node-content:active{
+        color: $blue_dark;
+      }
+      .node-content-selected{
+        color: $blue_normal;
+      }
+    }
+    .sub-tree-node{
+      position: relative;
+      display: inline-flex;
+      flex-direction: column;
+      margin-left: 1rem;
+    }
+  }
+}

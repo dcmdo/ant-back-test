@@ -1,0 +1,37 @@
+//默认slider样式
+.default-slider{
+  position: relative;
+  height: 1rem;
+  width: 30rem;
+  background-color: #bdc3c7;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  .slider-step-tag{
+    fill: #95a5a6;
+  }
+  .slider-front{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #16a085;
+    border-radius: 0.5rem;
+    .slider-tag{
+      position: absolute;
+      height: 1.2rem;
+      width: 1.2rem;
+      right: -0.6rem;
+      top: -0.1rem;
+      border-radius: 50%;
+      background-color: #1abc9c;
+      transition: background-color 0.3s;
+    }
+  }
+}
+.default-slider-hover{
+  .slider-front{
+    .slider-tag{
+      background-color: #1ccdab;
+    }
+  }
+}

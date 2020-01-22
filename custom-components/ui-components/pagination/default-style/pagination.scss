@@ -1,0 +1,91 @@
+@import "../../default-style/global-style-value";
+.default-pagination{
+  display: flex;
+  height: 2rem;
+  width: auto;
+  align-items: center;
+  color: $default_dark;
+  font-size: 0.8rem;
+  .pagination-item{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid $default_light;
+    border-radius: 0.25rem;
+    background-color: $default_white;
+    cursor: pointer;
+    transition: border-color 0.3s,color 0.3s;
+  }
+  .pagination-item:hover{
+    border-color: $blue_light;
+    color: $blue_light;
+  }
+  .pagination-item:active{
+    border-color: $blue_dark;
+    color: $blue_dark;
+  }
+  .pagination-item-selected{
+    border-color: $blue_normal;
+    color: $blue_normal;
+  }
+
+  .pagination-page-size{
+    position: relative;
+    background-color: $default_white;
+    color: $default_dark;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid $default_gray;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s,color 0.3s,border 0.3s;
+    .dropdown-show-text{
+      padding: 0.25rem 0.5rem;
+      text-overflow: clip;
+      width: 100%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .dropdown-icon{
+      margin-right: 0.5rem;
+    }
+    .dropdown-list{
+      max-height: 15rem;
+      background-color: $default_soft;
+      border-radius: 0.25rem;
+      color: $default_dark;
+      .dropdown-list-item{
+        padding: 0.25rem 0.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: background-color 0.3s,color 0.3s;
+      }
+      .dropdown-list-item:hover{
+        background-color: $blue_light;
+        color: $default_white;
+      }
+      .dropdown-list-item-selected{
+        background-color: $blue_normal;
+        color: $default_soft;
+      }
+    }
+  }
+  .pagination-page-size:hover{
+    border-color: $blue_normal;
+    color: $blue_normal;
+  }
+  .pagination-page-size:active{
+
+  }
+}

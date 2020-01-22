@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c6e8a1b-2eed-45d1-81c6-d388e77ee3e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1Wgg7Hdy7CwZ0bK6hWl5D7aNDH0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="F:\ProgramFile\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\webframe\web-framework-test\apps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\webframe\web-framework-test\apps\ant-design-react\scripts\content-default\content-default-style" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c6e8a1b-2eed-45d1-81c6-d388e77ee3e7" name="Default Changelist" comment="" />
+      <created>1579576482278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579576482278</updated>
+      <workItem from="1579576485904" duration="384000" />
+      <workItem from="1579577111280" duration="30450000" />
+      <workItem from="1579667984003" duration="10095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1579586360024">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1579586360024" />
+    <state width="1898" height="280" key="GridCell.Tab.0.bottom" timestamp="1579578087232">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1898" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1579578087232" />
+    <state width="1898" height="280" key="GridCell.Tab.0.center" timestamp="1579578087232">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1898" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1579578087232" />
+    <state width="1898" height="280" key="GridCell.Tab.0.left" timestamp="1579578087232">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1898" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1579578087232" />
+    <state width="1898" height="280" key="GridCell.Tab.0.right" timestamp="1579578087232">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1898" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1579578087232" />
+    <state x="461" y="155" key="SettingsEditor" timestamp="1579577459548">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="155" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1579577459548" />
+  </component>
+</project>

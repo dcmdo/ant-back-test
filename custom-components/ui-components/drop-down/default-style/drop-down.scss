@@ -1,0 +1,45 @@
+@import "../../default-style/global-style-value";
+//默认DropDown样式
+.default-drop-down{
+  position: relative;
+  background-color: $default_white;
+  color: $default_dark;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s,color 0.3s;
+  .dropdown-show-text{
+    padding: 0.25rem 0.5rem;
+    text-overflow: clip;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dropdown-icon{
+    margin-right: 0.5rem;
+  }
+  .dropdown-list{
+    max-height: 15rem;
+    background-color: $default_soft;
+    color: $default_dark;
+    .dropdown-list-item{
+      padding: 0.25rem 2rem 0.25rem 0.5rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+      transition: background-color 0.3s,color 0.3s;
+    }
+    .dropdown-list-item:hover{
+      background-color: $blue_light;
+      color: $default_white;
+    }
+    .dropdown-list-item-selected{
+      background-color: $blue_normal;
+      color: $default_soft;
+    }
+  }
+}

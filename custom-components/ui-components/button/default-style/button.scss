@@ -1,0 +1,20 @@
+@import "../../default-style/global-style-value";
+.default-button{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: $default_soft;
+  background-color: $blue_normal;
+  transition: background-color 0.3s,color 0.3s;
+  cursor: pointer;
+}
+.default-button:hover{
+  background-color: $blue_light;
+  color: $default_white;
+}
+.default-button:active{
+  background-color: $blue_dark;
+}

@@ -1,0 +1,88 @@
+@import "../../default-style/global-style-value";
+.default-table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  .table-thead{
+    .head-tr{
+      background-color: $heavy_normal;
+      color: $default_soft;
+      .head-th{
+        border: 1px solid $default_light;
+        padding: 0.25rem 0.5rem;
+        font-weight: normal;
+        //.order-container{
+        //  margin-left: 0.5rem;
+        //  display: inline-flex;
+        //  flex-direction: column;
+        //  vertical-align: middle;
+        //  .order-button{
+        //    font-size: 1rem;
+        //    transition: color 0.3s;
+        //  }
+        //  .order-button:hover{
+        //    color: $blue_light;
+        //  }
+        //  .order-button:active{
+        //    color: $blue_dark;
+        //  }
+        //}
+      }
+    }
+  }
+  .table-tbody{
+    .body-tr{
+      background-color: $default_white;
+      color: $default_heavy_gray;
+      transition: background-color 0.3s,color 0.3s;
+      cursor: pointer;
+      .body-td{
+        border: 1px solid $default_light;
+        padding: 0.1rem 0.2rem;
+        text-align: center;
+      }
+    }
+    .body-tr:nth-child(odd){
+      background-color: white;
+    }
+    .body-tr:nth-child(even){
+      background-color: $default_soft;
+    }
+    .body-tr:hover{
+      background-color: $heavy_light;
+      color: $default_soft;
+    }
+  }
+  .table-check{
+    position: relative;
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+    line-height: 150%;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $default_white;
+    border: 2px solid $default_gray;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: color 0.3s,border 0.3s;
+  }
+  .table-check:hover{
+    border-color: $blue_light;
+  }
+  .table-check:active{
+    border-color: $blue_dark;
+  }
+  .table-check-1{
+    color: transparent;
+  }
+  .table-check-2{
+    color: $blue_normal;
+    border-color: $blue_normal;
+  }
+  .table-check-3{
+    color: $blue_normal;
+    border-color: $blue_normal;
+  }
+}

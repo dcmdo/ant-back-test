@@ -1,0 +1,70 @@
+@import "../../default-style/global-style-value";
+//默认画廊样式
+.default-gallery{
+  position: relative;
+  min-width: 10rem;
+  min-height: 10rem;
+  cursor: pointer;
+  .gallery-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-manual-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    .gallery-manual-item{
+      padding: 1rem 0.5rem 1rem 0.5rem;
+      background-color: $blue_normal;
+      color: $default_soft;
+      transition: background-color 0.3s,color 0.3s;
+    }
+    .gallery-manual-item:hover{
+      background-color: $blue_light;
+      color: $default_white;
+    }
+    .gallery-manual-item:active{
+      background-color: $blue_dark;
+    }
+  }
+  .gallery-steps{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .gallery-step-item{
+      display: inline-block;
+      position: relative;
+      width: 0.7rem;
+      height: 0.7rem;
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+      background-color: $default_soft;
+      border-radius: 50%;
+      border: 0.25rem solid $blue_normal;
+      transition: background-color 0.3s,border 0.3s;
+    }
+    .gallery-step-item:hover{
+      border-color: $blue_light;
+    }
+    .gallery-step-item-active{
+      background-color: $blue_normal;
+      border-color: $blue_normal;
+    }
+  }
+}

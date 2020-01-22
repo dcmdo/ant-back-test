@@ -1,0 +1,51 @@
+@import "../../default-style/global-style-value";
+.default-search-bar{
+  display: inline-flex;
+  width: 10rem;
+  align-items: center;
+  .search-bar-input{
+    background-color: $default_white;
+    padding:0.25rem 0.5rem;
+    overflow: hidden;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .clear-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    color: $default_white;
+    background-color: $blue_normal;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .clear-button:hover{
+    background-color: $blue_light;
+  }
+  .clear-button:active{
+    background-color: $blue_dark;
+  }
+  .search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.25rem;
+    color: $default_white;
+    background-color: $blue_normal;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  .search-button:hover{
+    background-color: $blue_light;
+  }
+  .search-button:active{
+    background-color: $blue_dark;
+  }
+}

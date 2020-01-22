@@ -1,0 +1,23 @@
+@import "../../default-style/global-style-value";
+//默认select-grid
+.default-select-grid{
+  display: inline-flex;
+  color: $default_gray;
+  background-color: $default_white;
+  border: 2px solid $default_gray;
+  padding: 1px 5px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s,color 0.3s,border-color 0.3s;
+}
+.default-select-grid:hover{
+  border-color: $blue_normal;
+}
+.default-select-grid:active{
+  border-color: $blue_dark;
+}
+.default-select-grid-selected{
+  border-color: $blue_normal;
+  background-color: $blue_normal;
+  color: $default_soft;
+}

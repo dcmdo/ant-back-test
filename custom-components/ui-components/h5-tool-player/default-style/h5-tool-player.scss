@@ -1,0 +1,48 @@
+@import "../../default-style/global-style-value";
+.default-h5-tool-player{
+  position: relative;
+  width: 48rem;
+  height: 29rem;
+  background-color: $heavy_normal;
+  box-shadow:0 0.1rem 0.5rem rgba(0,0,0,0.5);
+  .player-tool-bar{
+    position: absolute;
+    height: 2rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: $heavy_normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $default_soft;
+    .player-title{
+      margin-left: 0.5rem;
+      cursor: default;
+    }
+    .player-button-container{
+      display: flex;
+      align-items: center;
+      .player-button{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        transition: color 0.3s;
+        cursor: pointer;
+      }
+      .player-button:hover{
+        color: $blue_light;
+      }
+      .player-button:active{
+        color: $blue_dark;
+      }
+    }
+  }
+  .html-container{
+    position:absolute;
+    left: 0;
+    top:2rem;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+}

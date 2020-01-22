@@ -1,0 +1,116 @@
+@import "../../default-style/global-style-value";
+.default-multiple-uploader{
+  position: relative;
+  width: 40rem;
+  height: 15rem;
+  background-color: $default_white;
+  border: 0.2rem solid $default_light;
+  border-radius: 0.5rem;
+  .drop-area{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.2rem solid $default_light;
+    .tip-text{
+      font-size: 1.5rem;
+      color: $default_light;
+    }
+    .files-list-area{
+      position: absolute;
+      left: 0.5rem;
+      right: 0.5rem;
+      top: 0.5rem;
+      bottom: 0.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      .file-item{
+        position: relative;
+        width: 6rem;
+        height: 7rem;
+        margin: 0.5rem;
+        background-color: $default_white;
+        border: 0.2rem solid $default_light;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .preview{
+          position: absolute;
+          pointer-events: none;
+        }
+        .remove{
+          position: absolute;
+          right: 0.1rem;
+          top: 0.1rem;
+          padding: 0.25rem;
+          border-radius: 50%;
+          background-color: $blue_normal;
+          color: $default_white;
+          transition: background-color 0.3s;
+          cursor: pointer;
+        }
+        .remove:hover{
+          background-color: $blue_light;
+        }
+        .remove:active{
+          background-color: $blue_dark;
+        }
+        .fileName{
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+          font-size: 0.75rem;
+          background-color:$default_light;
+          color: $default_white;
+          text-align: center;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .tool-bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .buttons{
+      .button{
+        display: inline-block;
+        margin-left: 0.5rem;
+        padding: 0.1rem 0.5rem;
+        background-color: $blue_normal;
+        color: $default_soft;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        transition: background-color 0.3s,color 0.3s;
+      }
+      .button:hover{
+        background-color: $blue_light;
+        color: $default_white;
+      }
+      .button:active{
+        background-color: $blue_dark;
+        color: $default_soft;
+      }
+    }
+    .info{
+      margin-right: 1rem;
+      white-space: pre;
+      color: $default_gray;
+    }
+  }
+}

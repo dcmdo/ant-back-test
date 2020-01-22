@@ -1,0 +1,29 @@
+@import "../../default-style/global-style-value";
+.default-state-select{
+  background-color: $default_white;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  color: $blue_normal;
+  border: 0.1rem solid $default_gray;
+  cursor: pointer;
+  transition: color 0.3s,background-color 0.3s,border-color 0.3s;
+}
+.default-state-select:hover{
+  border-color: $blue_light;
+}
+.default-state-select:active{
+  border-color: $blue_dark;
+}
+.default-state-select-1{
+  color: transparent;
+}
+.default-state-select-2{
+  border-color: $blue_normal;
+}
+.default-state-select-3{
+  border-color: $blue_normal;
+}

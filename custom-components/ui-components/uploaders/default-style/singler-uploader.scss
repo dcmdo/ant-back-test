@@ -1,0 +1,71 @@
+@import "../../default-style/global-style-value";
+.default-single-uploader{
+  position: relative;
+  width: 10rem;
+  height: 12rem;
+  background-color: $default_white;
+  border: 0.2rem solid $default_light;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  overflow: hidden;
+  .preview{
+    position: absolute;
+    pointer-events: none;
+  }
+  .remove{
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    line-height: 1.2rem;
+    border-radius: 50%;
+    background-color: $blue_normal;
+    color: $default_white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  .remove:hover{
+    background-color: $blue_light;
+  }
+  .remove:active{
+    background-color: $blue_dark;
+  }
+  .fileName{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.5rem;
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+    font-size: 0.75rem;
+    background-color:$default_light;
+    color: $default_white;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .progress{
+    position: absolute;
+    height: 0.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.1rem 0 0.1rem 0;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    background-color: $default_light;
+    .progress-bar-front{
+      height: 100%;
+      background-color: $blue_normal;
+    }
+  }
+}
+.default-single-uploader:hover{
+  border-color: $blue_normal;
+}

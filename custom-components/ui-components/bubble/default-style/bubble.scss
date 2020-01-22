@@ -1,0 +1,19 @@
+@import "../../default-style/global-style-value";
+.default-bubble{
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  background-color:$heavy_dark;
+  border-radius: 0.25rem;
+  .container{
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    color: $default_soft;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

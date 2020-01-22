@@ -1,0 +1,12 @@
+@import "../../default-style/global-style-value";
+//默认ProgressBar样式
+.default-progress-bar{
+  height: 1rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  background-color: $default_soft;
+  .progress-bar-front{
+    height: 100%;
+    background-color: $blue_normal;
+  }
+}

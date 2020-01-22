@@ -1,0 +1,13 @@
+@import "../../default-style/global-style-value";
+.default-rate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 2rem;
+  .rate-path{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+}

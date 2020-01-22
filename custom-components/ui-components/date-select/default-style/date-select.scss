@@ -1,0 +1,109 @@
+@import "../../default-style/global-style-value";
+
+.default-date-select{
+  position: relative;
+  width: 16rem;
+  height: auto;
+  background-color: $default_white;
+  display: flex;
+  flex-direction: column;
+  .date-select-title{
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .date-select-year-month{
+    position: relative;
+    height: 2rem;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    .change-button-container{
+      display: inline-flex;
+      .change-button{
+        cursor: pointer;
+        color: $cyan_normal;
+        transition: color 0.3s;
+      }
+      .change-button:hover{
+        color: $cyan_light;
+      }
+      .change-button:active{
+        color: $cyan_dark;
+      }
+    }
+  }
+  .date-select-days{
+    position: relative;
+    width: 100%;
+    height: auto;
+    .week-container{
+      position: relative;
+      height: 2rem;
+      background-color: $default_soft;
+      border-bottom: 1px solid $cyan_normal;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        color: $cyan_normal;
+      }
+    }
+    .days-container{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-bottom: 0.5rem;
+      .days-row{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .day{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 0.5rem;
+          width: 2rem;
+          height: 2rem;
+          cursor: pointer;
+          border-radius: 50%;
+          border: 1px solid transparent;
+          background-color: transparent;
+          transition: background-color 0.3s, color 0.3s, border 0.3s;
+        }
+        .out-day{
+          color: $default_gray;
+        }
+        .day:hover{
+          border-color: $cyan_normal;
+        }
+        .day:active{
+          background-color: $cyan_normal;
+        }
+        .day-selected{
+          color: $default_white;
+          background-color: $cyan_normal;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,526 @@
+[
+  {
+    "href": "./html-pages/backlog-module/backlog-list-page/backlog-list-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/backlog-module/backlog-search-box-page/backlog-search-box-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/bottom-my-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/company-manage-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/invite-staff-page/invite-staff-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/new-staff-check-page/new-staff-check-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/set-child-admin-page/child-admin-info-page/child-admin-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/set-child-admin-page/set-child-admin-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/select-profit-center-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/select-staff-station-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/staff-info-page/cost-center-page/cost-center-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/staff-info-page/staff-department-page/staff-department-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/staff-info-page/staff-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/staff-info-page/staff-post-page/staff-post-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/staff-info-page/staff-rank-page/staff-rank-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/company-manage-page/staff-manage-page/staff-manage-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/delegate-others-page/delegate-others-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/delegate-others-page/insert-delegate-info-page/insert-delegate-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/delegate-others-page/select-trustee-department-page/select-trustee-department-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/delegate-others-page/select-trustee-page/select-trustee-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/message-unsubscribe-page/message-unsubscribe-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-bank-card-page/explain-my-card-page/explain-my-card-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-bank-card-page/insert-card-info-page/insert-card-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-bank-card-page/insert-card-info-page/select-bank-child-page/select-bank-child-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-bank-card-page/insert-card-info-page/select-bank-page/select-bank-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-bank-card-page/insert-card-info-page/select-city-page/select-city-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-bank-card-page/my-bank-card-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-bank-card-page/my-card-info-page/my-card-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-doc-info-page/edit-doc-info-page/edit-doc-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-doc-info-page/insert-doc-info-page/insert-doc-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-doc-info-page/my-doc-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-order-form-page/my-order-form-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-recommend-hotel-page/my-recommend-hotel-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-recommend-hotel-page/recommend-hotel-info-page/recommend-hotel-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/change-password-page/change-password-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/change-phone-number-page/change-phone-number-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/message-unsubscribe-page/message-unsubscribe-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/my-set-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/safety-manage-page/face-collect-page/face-collect-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/safety-manage-page/fingerprint-collect-page/fingerprint-collect-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/safety-manage-page/gesture-collect-page/gesture-collect-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/my-set-page/safety-manage-page/safety-manage-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/select-department-page/select-department-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/bottom-my-page/user-info-page/user-info-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/home-page/home-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/journey-page/journey-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/journey-page/once-journey-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/hotel-indent-fill-in-page/hotel-indent-fill-in-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/hotel-query-page/hotel-choose.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/hotel-query-page/hotel-city-choose.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/hotel-query-page/hotel-number.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/hotel-query-page/hotel-query-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/service-provider-hotel/service-provider-hotel-comment.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/service-provider-hotel/service-provider-hotel-hotel-details.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/service-provider-hotel/service-provider-hotel-map-mode.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/service-provider-hotel/service-provider-hotel-new-check-in.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/service-provider-hotel/service-provider-hotel-query-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/service-provider-hotel/service-provider-hotel-relation-itinerary-number.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-hotel-module/service-provider-hotel/service-provider-hotel-room-notes.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/business-travel-query-page/business-travel-city-choose-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/business-travel-query-page/business-travel-destination-city-choose-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/business-travel-query-page/business-travel-query-goto-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/business-travel-query-page/business-travel-query-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/business-travel-query-page/indent-fill-in-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/indent-fill-in-inside-page/choose-area-code-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/indent-fill-in-inside-page/choose-nationality-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/indent-fill-in-inside-page/indent-add-man-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/indent-fill-in-inside-page/indent-compile-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/indent-fill-in-inside-page/relevance-bills-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-plane-module/indent-fill-in-inside-page/submit-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-fill-in-inside-page/relevance-12306.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-fill-in-inside-page/train-compile-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-fill-in-inside-page/train-submit-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-fill-in-inside-page/train-via.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-query-page/train-check-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-query-page/train-city-choose.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-query-page/train-fill-in-page-2.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-query-page/train-fill-in-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-query-page/train-query-goto-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/order-train-module/train-query-page/train-query-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/orderdetail-page/my-orders.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/orderdetail-page/orderdetail-air.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/orderdetail-page/orderdetail-hotel.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/orderdetail-page/orderdetail-train.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/orderdetail-page/send-confirmation-slip.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/fonts/cool-icon-font.svg",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/fonts/cool-icon-font.ttf",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/fonts/cool-icon-font.woff",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/global-handles.js",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/images/bodypicture.png",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/images/cool-play-back.svg",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/images/data-loading.svg",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/images/default-loading.svg",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/images/tutorials/common/mainbg.jpg",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/jsons/info.json",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/main.build.js",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/main.css",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/travel-standard-page/travel-standard-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/business-application-traveller-page/business-application-traveller-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/business-application-vehicle-page/business-application-vehicle-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/city-choose-page/city-choose-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/destination-city-choose-page/destination-city-choose-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/photo-album-page/photo-album-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/photo-preview-page/photo-preview-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/take-pictures-page/take-pictures-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/travel-application-list-page/travel-application-list-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/travel-application-search-box-page/travel-application-search-box-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/trip-apply-details-page/trip-apply-details-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-apply-module/trip-apply-form-page/trip-apply-form-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-add-page/reimbursement-for-travel-add-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-choice-expense-detail-page/reimbursement-for-travel-choice-expense-detail-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-choice-self-payment-page/reimbursement-for-travel-choice-self-payment-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-cost-allocation-manual-input/reimbursement-for-travel-cost-allocation-manual-input.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-cost-allocation-search/reimbursement-for-travel-cost-allocation-search.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-cost-type-page/reimbursement-for-travel-cost-type-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-details-page/reimbursement-for-travel-details-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/description-of-tax/description-of-tax.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-airplane-page/fare-of-airplane-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-automobile-page/fare-of-automobile-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-city-fare-page/fare-of-city-fare-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-hotel-expense-page/fare-of-hotel-expense-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-other-page/fare-of-other-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-ship-page/fare-of-ship-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-train-page/fare-of-train-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-fares/fare-of-training-fee-page/fare-of-training-fee-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-payment-details-page/payment-detail-hotel-expense-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-payment-details-page/payment-detail-travel-fares-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-payment-details-page/reimbursement-for-travel-payment-details-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/reimbursement-for-travel-reimbursements-page/reimbursement-for-travel-reimbursements-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/travel-reimburse-list-page/travel-reimburse-list-page.html",
+    "as": "fetch"
+  },
+  {
+    "href": "./html-pages/trip-reimbursement-module/travel-reimburse-search-box-page/travel-reimburse-search-box-page.html",
+    "as": "fetch"
+  }
+]

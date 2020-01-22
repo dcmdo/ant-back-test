@@ -1,0 +1,33 @@
+@import "../../default-style/global-style-value";
+.default-switch{
+  width: 4rem;
+  height: 1.5rem;
+  cursor: pointer;
+  .switch-element{
+    .switch-on{
+      background-color: $heavy_normal;
+      color: $default_soft;
+    }
+    .switch-off{
+      background-color: $heavy_dark;
+      color: $default_light;
+    }
+    .switch-tag{
+      background-color: $default_light;
+      transition: background-color 0.5s;
+    }
+    .switch-content{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+.default-switch-true{
+  .switch-element{
+    .switch-tag{
+      background-color: $blue_normal;
+    }
+  }
+}

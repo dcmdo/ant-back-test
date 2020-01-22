@@ -1,0 +1,56 @@
+@import "../../default-style/global-style-value";
+.default-num-select{
+  position: relative;
+  display: flex;
+  height: 2rem;
+  width: 6rem;
+  .num-input{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: $default_white;
+    overflow: hidden;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0 0.25rem;
+    box-shadow: inset 0 0 2px  $blue_normal;
+    border: 2px solid $blue_normal;
+    transition: border 0.3s,box-shadow 0.3s;
+  }
+  .num-input:hover{
+    border-color: $blue_light;
+    box-shadow: inset 0 0 1px  $blue_light;
+  }
+  .num-input:focus{
+    border-color: $blue_normal;
+    box-shadow: inset 0 0 1px  $blue_normal;
+  }
+  .select-container{
+    position: relative;
+    height: 100%;
+    min-width: 1.5rem;
+    max-width: 1.5rem;
+    margin-left: -2px;
+    .select-button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      width: 100%;
+      height: 50%;
+      color: $default_soft;
+      background-color: $blue_normal;
+      border: 1px solid $blue_normal;
+      transition: background-color 0.3s,color 0.3s;
+      cursor: pointer;
+      text-align: center;
+    }
+    .select-button:hover{
+      background-color: $blue_light;
+      color: $default_white;
+    }
+    .select-button:active{
+      background-color: $blue_dark;
+    }
+  }
+}

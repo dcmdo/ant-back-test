@@ -1,0 +1,18 @@
+@import "../../default-style/global-style-value";
+.default-toggle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  width: 1rem;
+  padding: 0.25rem;
+  background-color: $heavy_normal;
+  color:$default_light;
+  cursor: pointer;
+  transition: background-color 0.3s,color 0.3s;
+  border-radius: 0.25rem;
+}
+.default-toggle-true{
+  color: $default_soft;
+  background-color: $blue_normal;
+}

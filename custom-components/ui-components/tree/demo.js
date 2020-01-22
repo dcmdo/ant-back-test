@@ -1,0 +1,86 @@
+/*
+render(){
+    return <Tree
+        datas={[
+            {
+                text:"节点1",
+                childDatas:[
+                    {
+                        text:"节点11"
+                    },
+                    {
+                        text:"节点12"
+                    },
+                    {
+                        text:"节点13"
+                    }
+                ]
+            },
+            {
+                text:"节点2",
+                childDatas:[
+                    {
+                        text:"节点21",
+                        childDatas:[
+                            {
+                                text:"节点211"
+                            },
+                            {
+                                text:"节点212"
+                            }
+                        ]
+                    },
+                    {
+                        text:"节点22"
+                    }
+                ]
+            },
+            {
+                text:"节点3",
+                childDatas:[
+                    {
+                        text:"节点31"
+                    }
+                ]
+            }
+        ]}
+        treeNodePropsHandle={(data)=>{
+            return{
+                nodeContent:data.text,
+                childDatas:data.childDatas
+            }
+        }}
+        expansionPropsHandle={
+            (data)=>{
+                return {
+                    isExpansion: data.text==="节点1",
+                    onExpansion:(treeNode,isExpansion)=>{
+                        console.log(treeNode,isExpansion);
+                    }
+                }
+            }
+        }
+        selectionPropsHandle={
+            (data)=>{
+                return{
+                    canSelect:!data._treeExtra.isParent,
+                    onSelect:(addData,removeData)=>{
+                        console.log(addData,removeData);
+                    }
+                }
+            }
+        }
+        checksPropsHandle={
+            (data)=>{
+                return [{
+                    isChecked:data.text==="节点1",
+                    canCheck:data.text !== "节点12",
+                    onCheck:(checkedSet)=>{
+                        console.log(checkedSet);
+                    }
+                }];
+            }
+        }
+    />;
+}
+ */

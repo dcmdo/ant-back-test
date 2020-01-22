@@ -1,0 +1,24 @@
+@import "../../default-style/global-style-value";
+.default-color-picker{
+  position: relative;
+  padding: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $default_light;
+  align-items: center;
+  justify-content: center;
+  .color-block{
+    width: 2rem;
+    height: 1.5rem;
+    margin: 2px;
+    border-radius: 0.25rem;
+    border: 2px solid transparent;
+    transform-origin: center;
+    cursor: pointer;
+  }
+  .color-block-selected{
+    border-color: $default_black;
+  }
+}
