@@ -43,7 +43,7 @@
     "plupload": "^2.3.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "three": "^0.104.0",
+    "three": "^0.125.0",
     "three-gltf-loader": "^1.107.0",
     "underscore": "^1.9.1",
     "whatwg-fetch": "^3.0.0"
