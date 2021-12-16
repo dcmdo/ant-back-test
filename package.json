@@ -40,7 +40,7 @@
     "is-mobile": "^2.1.0",
     "js-base64": "^2.4.9",
     "pixi.js": "^4.8.8",
-    "plupload": "^2.3.6",
+    "plupload": "^2.3.9",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "three": "^0.104.0",
